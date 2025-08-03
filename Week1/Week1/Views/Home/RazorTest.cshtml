@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Test";
+}
+
+@{
+    var list = new int[] { 1, 2, 3, 4 };
+
+    int num = 0;
+
+    String lol = "lol";
+
+    Console.WriteLine(num);
+    Console.WriteLine(lol);
+}
+
+<button type="submit">Print Num: </button>
+<button type="submit">Print lol: </button>
+
+@{
+    int num1 = 5;
+    int num2 = 3;
+}
+<p>@(num1 + num2)</p>
+
+@if(num1 < num2)
+{
+    <p>@num1 is smaller than @num2</p>
+} 
+else
+{
+    <p>@num2 is smaller than @num1</p>
+}
+
+@foreach(int number in list)
+{
+    <p>@number</p>
+}
+
+@foreach (var number in list)
+{
+    <p>@number</p>
+}
