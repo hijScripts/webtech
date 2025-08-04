@@ -8,4 +8,8 @@
     <a href="../TestPage.html">Go to Test Page</a>
 </div>
 
+@* Basic Anchor Tag Using 'href' *@
 <a href="~/Test/RazorTest">Go to test page.</a>
+
+@* HTML Helper Tag // Text, Action (target source), Controller Name (without the controller suffix) *@
+@Html.ActionLink("Go to test page.", "RazorTest", "Test")
