@@ -8,5 +8,10 @@ namespace Week1.Controllers
         {
             return View();
         }
+
+        public IActionResult RazorTest()
+        {
+            return View();
+        }
     }
 }
