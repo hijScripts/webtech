@@ -7,9 +7,22 @@
 
 <h1>TestController + Test/RazorTest View</h1>
 
+@* Printing Value of 2 Sums *@
 @{
     int a = 1;
     int b = 2;
 }
 
 <p>@(a+ b)</p>
+
+@* Printing Values of an Array *@
+@{
+    String[] listOfStr = { "hey", "there", "lol" };
+}
+
+<p>
+    @foreach(String word in listOfStr)
+    {
+        @word;
+    }
+</p>
