@@ -20,9 +20,25 @@
     String[] listOfStr = { "hey", "there", "lol" };
 }
 
-<p>
+<ul>
     @foreach(String word in listOfStr)
     {
-        @word;
+        <li>@word</li>
     }
-</p>
+</ul>
+
+@* Printing Anon Coords *@
+@{
+    var coords = new[]
+    {
+        new { x = 1, y = 1 },
+        new { x = 2, y = 3 },
+        new { x = 4, y = 5 },
+        new { x = 6, y = 7 }
+    };
+}
+
+@foreach (var coord in coords)
+{
+<p>@coord.x, @coord.y</p>
+};
