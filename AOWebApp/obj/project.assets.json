@@ -7602,11 +7602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\61473\\Desktop\\AOWebApp\\AOWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\61473\\Desktop\\webtech\\AOWebApp\\AOWebApp.csproj",
       "projectName": "AOWebApp",
-      "projectPath": "C:\\Users\\61473\\Desktop\\AOWebApp\\AOWebApp.csproj",
+      "projectPath": "C:\\Users\\61473\\Desktop\\webtech\\AOWebApp\\AOWebApp.csproj",
       "packagesPath": "C:\\Users\\61473\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\61473\\Desktop\\AOWebApp\\obj\\",
+      "outputPath": "C:\\Users\\61473\\Desktop\\webtech\\AOWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
